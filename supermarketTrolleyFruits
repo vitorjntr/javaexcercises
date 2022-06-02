@@ -1,0 +1,31 @@
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+
+
+/*
+Escreva um programa que lê o nome de 5 frutas e armazena num carrinho de compras. Ao final
+da entrada dos 5 itens, exiba a lista completa. Exemplo:
+Insira a sua lista de compras:
+banana
+maçã
+abacaxi
+melão
+mamão
+As frutas no seu carrinho são:
+banana, maçã, abacaxi, melão, mamão
+ */
+
+public class Main {
+    public static void main(String[] args){
+        System.out.println("Escreva as 5 frutas que deseja colocar no carrinho:");
+        Scanner input = new Scanner(System.in);
+        String fruta1 = input.next();
+        String fruta2 = input.next();
+        String fruta3 = input.next();
+        String fruta4 = input.next();
+        String fruta5 = input.next();
+        System.out.println("As 5 frutas no seu carrinho de compra sao \n" + fruta1 + "\n" + fruta2 + "\n" + fruta3 + "\n" + fruta4 + "\n" + fruta5);
+
+    }
+}
