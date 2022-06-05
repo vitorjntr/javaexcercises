@@ -31,6 +31,7 @@ public class Main {
                 for ( String fruitInSale : fruitsSale) {
                     if ( fruitInSale.equalsIgnoreCase(fruit)) {
                         cont++;
+                       
                     }
                 }
             }
